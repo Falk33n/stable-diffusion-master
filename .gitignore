@@ -1,3 +1,5 @@
+.vscode/
+
 fastapi/__pycache__/
 fastapi/app/__pycache__/
 fastapi/*.py[cod]
