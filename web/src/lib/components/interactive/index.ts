@@ -1,3 +1,5 @@
+import AccordionContent from './AccordionContent.svelte';
+import AccordionItem from './AccordionItem.svelte';
 import SheetDescription from './SheetDescription.svelte';
 import SheetFooter from './SheetFooter.svelte';
 import SheetHeader from './SheetHeader.svelte';
@@ -25,6 +27,7 @@ import SidebarRail from './SidebarRail.svelte';
 import SidebarSeparator from './SidebarSeparator.svelte';
 import SidebarTrigger from './SidebarTrigger.svelte';
 
+import AccordionTrigger, { Accordion } from './AccordionTrigger.svelte';
 import {
 	SIDEBAR_COOKIE_MAX_AGE,
 	SIDEBAR_COOKIE_NAME,
@@ -51,6 +54,10 @@ import SidebarMenuButton, {
 } from './SidebarMenuButton.svelte';
 
 export {
+	Accordion,
+	AccordionContent,
+	AccordionItem,
+	AccordionTrigger,
 	setSidebar,
 	Sheet,
 	SheetClose,
